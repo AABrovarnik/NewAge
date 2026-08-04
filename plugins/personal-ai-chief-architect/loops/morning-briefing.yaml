@@ -1,0 +1,8 @@
+name: morning-briefing
+schedule: "weekdays 08:30"
+agent: secretary
+steps:
+  - read: [gmail.unread, calendar.today, github.assigned]
+  - rank: "urgency * impact * deadline"
+  - produce: [top_priorities, meeting_briefs, proposed_replies, risks]
+  - action: "send only after confirmation"

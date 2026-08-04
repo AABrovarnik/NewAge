@@ -1,0 +1,7 @@
+{
+  "apps": {
+    "telegram": {"id": "telegram", "category": "communication"},
+    "google-workspace": {"id": "google-workspace", "category": "productivity"},
+    "github": {"id": "github", "category": "engineering"}
+  }
+}

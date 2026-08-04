@@ -1,0 +1,8 @@
+name: follow-up
+trigger: task.deadline_approaching
+agent: secretary
+steps:
+  - check: [thread, calendar, github, drive]
+  - notify: "user first"
+  - draft: [reminder, status_request]
+  - action: "send only after confirmation"

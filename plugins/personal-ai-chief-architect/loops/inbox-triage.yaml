@@ -1,0 +1,8 @@
+name: inbox-triage
+trigger: gmail.new_message
+agent: secretary
+steps:
+  - classify: [urgent, action_required, waiting, reference, newsletter, suspicious]
+  - extract: [sender, deadline, requested_action, entities]
+  - draft: "reply or task, never send automatically"
+  - archive: "only with confirmation"

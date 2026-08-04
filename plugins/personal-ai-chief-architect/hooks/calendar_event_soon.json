@@ -1,0 +1,1 @@
+{"pipeline": ["load_context", "prepare_brief", "notify_user"], "lead_minutes": 30, "writes": "none"}

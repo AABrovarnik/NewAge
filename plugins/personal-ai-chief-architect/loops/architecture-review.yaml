@@ -1,0 +1,8 @@
+name: architecture-review
+trigger: github.issue_or_pr
+agent: architect
+steps:
+  - gather: [requirements, constraints, repository_context, existing_adrs]
+  - evaluate: [options, tradeoffs, security, operability, cost]
+  - produce: [adr_draft, diagram_source, implementation_plan, open_questions]
+  - action: "create PR only after confirmation"

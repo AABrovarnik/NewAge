@@ -1,0 +1,1 @@
+{"pipeline": ["summarize_diff", "check_sensitive_data", "route_to_owner"], "writes": "require_confirmation"}

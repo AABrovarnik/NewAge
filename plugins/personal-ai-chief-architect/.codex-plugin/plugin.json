@@ -1,0 +1,26 @@
+{
+  "name": "personal-ai-chief-architect",
+  "version": "0.1.0",
+  "description": "Personal multi-agent assistant with secretary and software-architect roles, governed workflows, and Google, Telegram, and GitHub integration points.",
+  "author": {
+    "name": "NewAge",
+    "url": "https://github.com/"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Personal AI Chief & Architect",
+    "shortDescription": "Secretary, architect, and workflow orchestrator.",
+    "longDescription": "A privacy-conscious multi-agent assistant for inbox and calendar triage, document management, engineering architecture, and GitHub delivery.",
+    "developerName": "NewAge",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write", "Integrations"],
+    "defaultPrompt": [
+      "Summarize urgent mail and propose next actions.",
+      "Review this system and produce an architecture decision record.",
+      "Prepare my day from calendar, inbox, and GitHub."
+    ],
+    "brandColor": "#315CFF"
+  },
+  "mcpServers": "./.mcp.json",
+  "apps": "./.app.json"
+}

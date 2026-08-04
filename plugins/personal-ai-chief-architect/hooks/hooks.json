@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "events": {
+    "message.received": "hooks/message_received.json",
+    "calendar.event_soon": "hooks/calendar_event_soon.json",
+    "task.completed": "hooks/task_completed.json",
+    "document.changed": "hooks/document_changed.json",
+    "github.pull_request": "hooks/github_pull_request.json"
+  },
+  "policy": {"default": "queue_for_review", "external_writes": "require_confirmation"}
+}

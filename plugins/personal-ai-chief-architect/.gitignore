@@ -1,0 +1,6 @@
+.env
+.env.*
+state/
+*.log
+__pycache__/
+.pytest_cache/

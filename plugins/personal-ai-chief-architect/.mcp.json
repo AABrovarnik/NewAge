@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "telegram": {
+      "command": "python3",
+      "args": ["./scripts/mcp_adapter.py", "telegram"],
+      "env": {"TELEGRAM_BOT_TOKEN": "${TELEGRAM_BOT_TOKEN}"}
+    },
+    "google-workspace": {
+      "command": "python3",
+      "args": ["./scripts/mcp_adapter.py", "google-workspace"],
+      "env": {
+        "GOOGLE_CLIENT_ID": "${GOOGLE_CLIENT_ID}",
+        "GOOGLE_CLIENT_SECRET": "${GOOGLE_CLIENT_SECRET}",
+        "GOOGLE_REFRESH_TOKEN": "${GOOGLE_REFRESH_TOKEN}"
+      }
+    },
+    "github": {
+      "command": "python3",
+      "args": ["./scripts/mcp_adapter.py", "github"],
+      "env": {"GITHUB_TOKEN": "${GITHUB_TOKEN}"}
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"pipeline": ["review_scope", "run_checks", "draft_review", "request_confirmation_before_submit"], "writes": "none"}

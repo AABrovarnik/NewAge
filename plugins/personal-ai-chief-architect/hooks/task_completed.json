@@ -1,0 +1,1 @@
+{"pipeline": ["verify_evidence", "update_log", "offer_follow_up"], "writes": "local_log_only"}
