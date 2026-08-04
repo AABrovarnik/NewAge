@@ -28,3 +28,4 @@ Apply these rules to every task in this repository.
 - Review `git diff --check`, status, and the final diff before commit or publication.
 - Report what changed, what was verified, what remains uncertain, and the commit or publication target.
 - Create a short change report for substantial work. Publish reports only after the external-write confirmation gate is satisfied.
+- After every substantial task, update `docs/context/current-state.md` with the goal, status, decisions, verification, open questions, and next steps. Keep it concise and never record secrets or unnecessary personal data.
