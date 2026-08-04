@@ -1,6 +1,6 @@
 # Working agreement for Codex
 
-Apply these rules to every task in this repository.
+Apply these rules to tasks in this project. When this file is inherited from `/root/projects/AGENTS.md`, apply them to the child project as well.
 
 ## Operating mode
 
