@@ -13,7 +13,7 @@ Personal AI Chief & Architect — локальный Codex-плагин для �
 - Loops `morning-briefing`, `inbox-triage`, `architecture-review` и `follow-up`.
 - Политика least privilege с confirmation gates для внешних записей.
 
-Основной исходный код находится в [`plugins/personal-ai-chief-architect/`](../plugins/personal-ai-chief-architect/). Точки входа и правила описаны в [README](../plugins/personal-ai-chief-architect/README.md), [конфигурации интеграций](../plugins/personal-ai-chief-architect/docs/integrations.md), [hooks](../plugins/personal-ai-chief-architect/hooks/hooks.json), [loops](../plugins/personal-ai-chief-architect/loops/) и [политике разрешений](../plugins/personal-ai-chief-architect/policies/permissions.yaml).
+Основной исходный код находится в [`plugins/personal-ai-chief-architect/`](../plugins/personal-ai-chief-architect/). Точки входа и правила описаны в [README](../plugins/personal-ai-chief-architect/README.md), [конфигурации интеграций](../plugins/personal-ai-chief-architect/docs/integrations.md), [runbook активации](../plugins/personal-ai-chief-architect/docs/activation-runbook.md), [hooks](../plugins/personal-ai-chief-architect/hooks/hooks.json), [loops](../plugins/personal-ai-chief-architect/loops/) и [политике разрешений](../plugins/personal-ai-chief-architect/policies/permissions.yaml).
 
 ## Модель безопасности
 
